@@ -1,0 +1,305 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Section -->
+<section class="hero-section position-relative overflow-hidden bg-dark">
+    <div class="position-absolute w-100 h-100" style="background: radial-gradient(circle at 70% 30%, rgba(46, 16, 101, 0.8) 0%, rgba(15, 23, 42, 1) 70%); z-index: 0;"></div>
+    <div class="swiper-container position-relative" style="z-index: 1;">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="container py-5" style="min-height: 80vh; display: flex; align-items: center;">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 pe-lg-5">
+                            <h1 class="display-4 fw-bold mb-4 text-white" style="letter-spacing: -0.05em;">Elevate Your Digital Presence</h1>
+                            <p class="lead text-white-60 mb-4" style="opacity: 0.9;">Discover the future of digital solutions with our cutting-edge platform designed for visionaries.</p>
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="#" class="btn btn-primary btn-lg px-4 rounded-pill shadow-sm" style="background: linear-gradient(135deg, #8a2be2, #4b0082); border: none;">Get Started</a>
+                                <a href="#" class="btn btn-outline-light btn-lg px-4 rounded-pill border-2">Explore Features</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-5 mt-lg-0">
+                            <div class="position-relative">
+                                <div class="position-absolute top-0 start-0 translate-middle bg-purple rounded-circle p-3 shadow" style="width: 60px; height: 60px; z-index: 2;">
+                                    <i class="fas fa-play text-white"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="container py-5" style="min-height: 80vh; display: flex; align-items: center;">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-lg-2 ps-lg-5">
+                            <h1 class="display-4 fw-bold mb-4 text-white" style="letter-spacing: -0.05em;">Architected for Scale</h1>
+                            <p class="lead text-white-60 mb-4" style="opacity: 0.9;">Enterprise-grade infrastructure that grows seamlessly with your ambitions.</p>
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="#" class="btn btn-primary btn-lg px-4 rounded-pill shadow-sm" style="background: linear-gradient(135deg, #8a2be2, #4b0082); border: none;">View Demo</a>
+                                <a href="#" class="btn btn-outline-light btn-lg px-4 rounded-pill border-2">Pricing</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-1 mt-5 mt-lg-0">
+                            <img src="https://via.placeholder.com/700x450/2d3748/ffffff?text=Scalable+Tech" alt="Hero Image" class="img-fluid rounded-4 shadow-lg" style="border: 1px solid rgba(255,255,255,0.1);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="position-absolute bottom-0 start-0 end-0" style="z-index: 1;">
+        <svg viewBox="0 0 1440 120" fill="currentColor">
+            <path d="M0,96L60,58.7C120,53,240,43,360,48C480,53,600,75,720,74.7C840,75,960,53,1080,42.7C1200,32,1320,32,1380,32L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-6 position-relative" style="background-color: #0f172a;">
+    <div class="container position-relative">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8 text-center">
+                <span class="badge px-3 py-2 mb-3 d-inline-block" style="background: rgba(138, 43, 226, 0.2); color: #b794f4; letter-spacing: 0.1em;">WHY WE STAND OUT</span>
+                <h2 class="display-5 fw-bold mt-3 mb-3 text-white">Crafted for <span class="text-gradient-purple">Exceptional Performance</span></h2>
+                <p class="lead mb-3" style="color: #94a3b8;">Precision-engineered components that deliver unmatched results.</p>
+                <div class="d-flex justify-content-center">
+                    <hr style="width: 80px; border-top: 2px solid #7c3aed; opacity: 1;">
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0" style="background: rgba(30, 41, 59, 0.5); backdrop-filter: blur(10px);">
+                    <div class="card-body p-4">
+                        <div class="rounded-3 p-3 mb-3 d-inline-flex" style="background: rgba(138, 43, 226, 0.1);">
+                            <i class="fas fa-bolt fs-4" style="color: #8a2be2;"></i>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3 text-white">Blazing Speed</h3>
+                        <p class="mb-0" style="color: #94a3b8;">Optimized architecture delivers sub-100ms response times globally.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0" style="background: rgba(30, 41, 59, 0.5); backdrop-filter: blur(10px);">
+                    <div class="card-body p-4">
+                        <div class="rounded-3 p-3 mb-3 d-inline-flex" style="background: rgba(75, 0, 130, 0.1);">
+                            <i class="fas fa-shield-alt fs-4" style="color: #4b0082;"></i>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3 text-white">Fortified Security</h3>
+                        <p class="mb-0" style="color: #94a3b8;">End-to-end encryption with zero-trust architecture.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0" style="background: rgba(30, 41, 59, 0.5); backdrop-filter: blur(10px);">
+                    <div class="card-body p-4">
+                        <div class="rounded-3 p-3 mb-3 d-inline-flex" style="background: rgba(123, 31, 162, 0.1);">
+                            <i class="fas fa-sliders-h fs-4" style="color: #7b1fa2;"></i>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3 text-white">Tailored Experience</h3>
+                        <p class="mb-0" style="color: #94a3b8;">Complete control over every aspect of your environment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 border-0" style="background: rgba(30, 41, 59, 0.5); backdrop-filter: blur(10px);">
+                    <div class="card-body p-4">
+                        <div class="rounded-3 p-3 mb-3 d-inline-flex" style="background: rgba(106, 27, 154, 0.1);">
+                            <i class="fas fa-headset fs-4" style="color: #6a1b9a;"></i>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3 text-white">Concierge Support</h3>
+                        <p class="mb-0" style="color: #94a3b8;">Dedicated experts available 24/7/365.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats Section -->
+<section class="py-6 position-relative" style="background: linear-gradient(135deg, #4a148c 0%, #12005e 100%);">
+    <div class="container position-relative">
+        <div class="row g-4">
+            <div class="col-md-3 text-center">
+                <h3 class="display-4 fw-bold mb-2 text-white">10K+</h3>
+                <p class="mb-0" style="color: #b794f4;">Active Users</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="display-4 fw-bold mb-2 text-white">99.99%</h3>
+                <p class="mb-0" style="color: #b794f4;">Uptime</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="display-4 fw-bold mb-2 text-white">4.95/5</h3>
+                <p class="mb-0" style="color: #b794f4;">Rating</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="display-4 fw-bold mb-2 text-white">24/7</h3>
+                <p class="mb-0" style="color: #b794f4;">Support</p>
+            </div>
+        </div>
+    </div>
+    <div class="position-absolute bottom-0 start-0 end-0">
+        <svg viewBox="0 0 1440 120" fill="currentColor">
+            <path d="M0,96L60,58.7C120,53,240,43,360,48C480,53,600,75,720,74.7C840,75,960,53,1080,42.7C1200,32,1320,32,1380,32L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-6 position-relative" style="background-color: #0f172a;">
+    <div class="container text-center">
+        <h2 class="display-5 fw-bold mb-4 text-white">Ready to Begin Your Journey?</h2>
+        <p class="lead mb-5" style="color: #94a3b8;">Join the elite group of innovators transforming their digital landscape.</p>
+        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+            <a href="#" class="btn btn-lg px-5 rounded-pill shadow" style="background: linear-gradient(135deg, #8a2be2, #4b0082); border: none; color: white;">Start Free Trial</a>
+            <a href="#" class="btn btn-outline-light btn-lg px-5 rounded-pill border-2">Schedule Consultation</a>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <link rel="stylesheet" href="~/ASP_Project." asp-append-version="true" />
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+}
+
+<style>
+    /* Base Styles */
+    :root {
+        --bs-body-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    body {
+        background-color: #0f172a;
+        color: #e2e8f0;
+        overflow-x: hidden;
+    }
+
+    /* Typography */
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .display-4 {
+        font-size: calc(1.475rem + 2.7vw);
+    }
+
+    .lead {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    .text-gradient-purple {
+        background: linear-gradient(135deg, #8a2be2, #4b0082);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    /* Buttons */
+    .btn {
+        font-weight: 500;
+        padding: 0.5rem 1.5rem;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .btn-lg {
+        padding: 0.75rem 2rem;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(138, 43, 226, 0.3);
+    }
+
+    .btn-outline-light:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Cards */
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+    /* Section Spacing */
+    .py-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        background-color: #0f172a;
+    }
+
+    .swiper-slide {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: white;
+        width: 30px;
+        border-radius: 5px;
+    }
+
+    /* SVG Wave */
+    svg {
+        color: inherit;
+        fill: currentColor;
+    }
+
+    /* Responsive Adjustments */
+    @@media (max-width: 768px) {
+        .display-4 {
+            font-size: 2.2rem;
+        }
+
+        .lead {
+            font-size: 1.1rem;
+        }
+
+        .btn-lg {
+            padding: 0.6rem 1.5rem;
+            font-size: 1rem;
+        }
+    }
+</style>
